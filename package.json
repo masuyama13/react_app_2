@@ -9,6 +9,7 @@
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets --loader:.js=jsx"
   },
   "devDependencies": {
+    "tsc-watch": "^6.0.0",
     "typescript": "^4.9.4"
   }
 }
